@@ -1,0 +1,636 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 5px solid rgb(33, 177, 255);
+    border-bottom: 5px solid rgb(33, 177, 255);
+    position: fixed;
+    z-index: 10;
+}
+#clincartlogo{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(33, 177, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:46% 54% 46% 54% / 100% 0% 100% 0% ;
+}
+#navbaroptions{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 26px;
+        font-weight: bold;
+}
+
+/* .pagelist{
+    list-style: none;
+    position: relative;
+    bottom: -105px;
+    display: none;
+}
+#page:hover .pagelist{
+        display: flex;
+} */
+header{
+    width: 100%;
+    height: 550px;
+    /* background-color: rgb(157, 219, 239); */
+    background-image: url(../ASSETS/HEADERS/1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    z-index: 9;
+}
+#headerimage{
+    width: 100%;
+    height: 100%;
+}
+.inp{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 24px;
+    background-image: linear-gradient(75deg,transparent,steelblue);
+    border: none;
+    border-radius: 5px;
+    box-shadow: -2px 2px 2px black;
+    cursor: pointer;
+    margin: 30px;
+}
+#leftButton{
+    background-image: linear-gradient(-75deg,transparent,steelblue);
+    box-shadow: 2px 2px 2px black;
+}
+.inp:hover{
+    transform: scale(1.2);
+}
+#aboutuscontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    position: relative;
+    top: 104vh;
+}
+#aboutushead{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    /* color:  rgb(33, 177, 255); */
+}
+#aboutusdetails{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+#photo{
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    background-image: url(../ASSETS/IMAGES/aboutiamge.jpg);
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+#aboutmatter{
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#p1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+#p2{
+    font-size: 18px;
+    margin-left: 20px;
+}
+#conatctbutton{
+    width: 50%;
+    height: 60px;
+    background-color:  rgb(33, 177, 255);
+}
+#factcontainer{
+    width: 100%;
+    height: 180vh;
+    background-color: white;
+    position: absolute;
+    top: 204vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#factsconatinerdivs{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.facts{
+    width: 30%;
+    height: 60%;
+    background-color: deepskyblue;
+    border-radius: 90px;
+    border: 2px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.facts:hover{
+    border-radius: 0px;
+    background-color: white;
+    border: 2px dotted black;
+}
+.svgs{
+    width: 30px;
+}
+#ourservices{
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 384vh;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+}
+#oshead1{
+    width: 100%;
+    height: 10%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#osh102{
+    color: blue;
+}
+#oshead2{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(182, 217, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.osh2divs{
+    width: 28%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.osh2divsimg{
+    width: 80%;
+    height: 40%;
+}
+.osh2divs:hover .osh2divsimg{
+    transform: scale(1.2);
+}
+p{
+    text-align: center;
+}
+.readmorediv{
+    width: 40%;
+    height: 30px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#oufeatures{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 584vh;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+
+}
+#of1,#of2{
+    width: 50%;
+    height: 100%;
+   
+}
+#of1{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#of2{
+    background-image: url(../ASSETS/IMAGES/ourfeature.jpg);
+    background-size: 100% 100%;
+}
+#pricingplanconatiner{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 684vh;
+    background-color: white;
+}
+#pricingplanhead{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#pricingplanbody{
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.pricingplanbodydivs{
+    width: 25%;
+    height: 95%;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(194, 210, 219);
+    border-radius: 5%;
+}
+#subdiv1{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    border-top: 0.5px solid black;
+}
+.pricingplanbodydivs:hover #subdiv1{
+    background-color: cornflowerblue;
+}
+#subdiv2{
+    width: 100%;
+    height: 55%;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+#subdiv3{
+    width: 100%;
+    height: 15%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactnow{
+        width: 30%;
+        height: 50%;
+        border-radius: 20px;
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+}
+#quotenadquery{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 784vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+
+}
+#queryformdiv,#qoutediv{
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid black;
+    background-color: aliceblue;
+}
+#qoutediv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+#queryformdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+table{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    
+    
+}
+.tabinp{
+    width: 90%;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+textarea,#submitbutton{
+    width: 90%;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#submitbutton{
+    background-color: rgb(156, 186, 241);
+}
+#ourteamdiv{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 884vh;
+    background-color: lightskyblue;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+
+}
+#ourteamdivhead{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#ourteamdivbody{
+    width: 100%;
+    height: 80%;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.docdivs{
+    width: 20%;
+    height: 80%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.docimg{
+    width: 80%;
+    height: 60%;
+    background-color: aqua;
+  
+}
+.docsocialinfodiv{
+width: 50%;
+height: 30px;
+background-color: blueviolet;
+border-radius: 10px;
+}
+#doc1{
+    background-image: url(../ASSETS/IMAGES/ChiefMedicalOfficer.jpg);
+    background-size: 100% 100%;
+}
+#doc2{
+    background-image: url(../ASSETS/IMAGES/OrthopedicSurgeon.jpg);
+    background-size: 100% 100%;
+}
+#doc3{
+    background-image: url(../ASSETS/IMAGES/Neurosurgeon.jpg);
+    background-size: 100% 100%;
+}
+#doc4{
+    background-image: url(../ASSETS/IMAGES/ChiefNurse.jpg);
+    background-size: 100% 100%;
+}
+.docdivs:hover #doc1{
+    background-size: 120% 120%;
+}
+.docdivs:hover #doc2{
+    background-size: 120% 120%;
+}
+.docdivs:hover #doc3{
+    background-size: 120% 120%;
+}
+.docdivs:hover #doc4{
+    background-size: 120% 120%;
+}
+#testimonialdiv{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 984vh;
+    background-color: aquamarine;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+}
+#testimonialhead{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#testimonialbody{
+    width: 100%;
+    height: 80%;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.patientdivs{
+    width: 20%;
+    height: 80%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer
+{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 1084vh;
+    background-color: rgb(53,130,163);
+    display: flex;
+    flex-direction: column;
+}
+#footerbody{
+        width: 100%;
+        height: 85%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: row;
+}
+#footerfoot{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+
+}
+.fb{
+    width: 25%;
+    height: 100%;
+    /* border-left: 0.5px solid black; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.symbol{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.fbdivs{
+    font-size: 24px;
+    margin-left: 15px;
+}
+#flinks{
+    width: 80%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#servicelistdiv,#quicklinkdiv{
+    width: 100%;
+    height: 60%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.servlist{
+    margin-left: 10px;
+}
+#nlpara{
+    font-size: 24px;
+    margin-left: 15px;
+    text-align: start;
+}
+#nlinp{
+    width: 100%;
+    height: 60px;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nlemail{
+    width: 70%;
+    height: 80%;
+}
+#nlsubmit{
+    width: 30%;
+    height: 88%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

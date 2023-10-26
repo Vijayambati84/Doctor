@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* transition: all 0.5s; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 5px solid rgb(33, 177, 255);
+    border-bottom: 5px solid rgb(33, 177, 255);
+    position: fixed;
+    z-index: 10;
+}
+#clincartlogo{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(33, 177, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:46% 54% 46% 54% / 100% 0% 100% 0% ;
+}
+#navbaroptions{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 26px;
+        font-weight: bold;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../ASSETS/HEADERS/2.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+.headings{
+    margin-left: 100px;
+}
+#head1{
+    font-size: 80px;
+    color: white;
+}
+#head2{
+    font-size: 24px;
+    color: white;
+}
+#aboutusdiv{
+    width: 100%;
+    height: 140vh;
+    position: absolute;
+    top: 90vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#aboutushead{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+
+}
+#abouthead1{
+    font-size: 45px;
+    position: absolute;
+    top: 100px;
+}
+#abouthead2{
+    font-size: 35px;
+}
+#aboutusbody{
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.aboutpara{
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+}
+#featurediv{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 230vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+#featurebody{
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#featurefoot{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featuredivs{
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border:none;
+    transition: border 0.5s;
+}
+.featureimg{
+    width: 60px;
+    height: 60px;
+}
+.featurepara{
+    font-size: 18px;
+    text-align: center;
+}
+.featuredivs:hover{
+     border: 3px solid deepskyblue;
+}
+#contcatbutton{
+    width: 18%;
+    height: 43%;
+    background-color: rgb(120, 221, 255);
+    font-size: 30px;
+    border: none;
+}
+#oufeatures{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 330vh;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+
+}
+#of1,#of2{
+    width: 50%;
+    height: 100%;
+   
+}
+#of1{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#of2{
+    background-image: url(../ASSETS/IMAGES/ourfeature.jpg);
+    background-size: 100% 100%;
+}
+#submitbutton{
+    background-color: rgb(156, 186, 241);
+}
+#ourteamdiv{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 430vh;
+    background-color: lightskyblue;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+
+}
+#ourteamdivhead{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#ourteamdivbody{
+    width: 100%;
+    height: 80%;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.docdivs{
+    width: 20%;
+    height: 80%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.docimg{
+    width: 80%;
+    height: 60%;
+    background-color: aqua;
+  
+}
+.docsocialinfodiv{
+width: 50%;
+height: 30px;
+background-color: blueviolet;
+border-radius: 10px;
+}
+#doc1{
+    background-image: url(../ASSETS/IMAGES/ChiefMedicalOfficer.jpg);
+    background-size: 100% 100%;
+}
+#doc2{
+    background-image: url(../ASSETS/IMAGES/OrthopedicSurgeon.jpg);
+    background-size: 100% 100%;
+}
+#doc3{
+    background-image: url(../ASSETS/IMAGES/Neurosurgeon.jpg);
+    background-size: 100% 100%;
+}
+#doc4{
+    background-image: url(../ASSETS/IMAGES/ChiefNurse.jpg);
+    background-size: 100% 100%;
+}
+.docdivs:hover #doc1{
+    background-size: 120% 120%;
+}
+.docdivs:hover #doc2{
+    background-size: 120% 120%;
+}
+.docdivs:hover #doc3{
+    background-size: 120% 120%;
+}
+.docdivs:hover #doc4{
+    background-size: 120% 120%;
+}
+footer
+{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 530vh;
+    background-color: rgb(53,130,163);
+    display: flex;
+    flex-direction: column;
+}
+#footerbody{
+        width: 100%;
+        height: 85%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: row;
+}
+#footerfoot{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+
+}
+.fb{
+    width: 25%;
+    height: 100%;
+    /* border-left: 0.5px solid black; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.symbol{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.fbdivs{
+    font-size: 24px;
+    margin-left: 15px;
+}
+#flinks{
+    width: 80%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#servicelistdiv,#quicklinkdiv{
+    width: 100%;
+    height: 60%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.servlist{
+    margin-left: 10px;
+}
+#nlpara{
+    font-size: 24px;
+    margin-left: 15px;
+    text-align: start;
+}
+#nlinp{
+    width: 100%;
+    height: 60px;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nlemail{
+    width: 70%;
+    height: 80%;
+}
+#nlsubmit{
+    width: 30%;
+    height: 88%;
+}
+
+

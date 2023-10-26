@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/home.css">
+    <script src="./JAVASCRIPT/home.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div id="clincartlogo">
+            <h1>ClinicArt</h1>
+        </div>
+        <div id="navbaroptions">
+           <span>Home</span>
+           <span><a href="./HTML/aboutus.html">About</a></span>
+           <span id="page">Page 
+            <!-- <li class="pagelist">pricing plan</li>
+                <li class="pagelist">Features </li>
+                <li class="pagelist">Free quota</li>
+                <li class="pagelist">Our Team</li>
+                <li class="pagelist">Tesimonial</li>
+                <li class="pagelist">404 error</li> -->
+           </span>
+           <span><a href="./HTML/services.html">Services</a></span>
+           <span><a href="./HTML/conatct.html">Contact</a></span>
+        </div>
+    </nav>
+    <header>
+        <input class="inp" type="button" value="<" id="leftButton" onclick="dec()">
+        <input class="inp" type="button" value=">" id="rightButton" onclick="inc()">
+    </header>
+    <div id="aboutuscontainer">
+        <div id="aboutushead">About us</div>
+        <div id="aboutusdetails">
+            <div id="photo"></div>
+            <div id="aboutmatter">
+                <p id="p1">A New Standard in Clinical Experience</p>
+                <p id="p2">For us, patient satisfaction is a top priority.
+                    We consider every detail to provide you with a 
+                    personalized and specialized healthcare experience.
+                    For us, patient satisfaction is a top priority.
+                    We consider every detail to provide you with 
+                    a personalized and specialized healthcare experience.
+                    For us, patient satisfaction is a top priority.
+                    We consider every detail to provide you with a 
+                    personalized and specialized healthcare experience. 
+                    For us, patient satisfaction is a top priority. 
+                    We consider every detail to provide you with a 
+                    personalized and specialized healthcare experience.  
+                </p>
+                <button id="conatctbutton">CONTACT US</button>
+            </div>
+        </div>
+    </div>
+    <div id="factcontainer">
+            <h1 id="facthead1">SOME FACTS</h1>
+            <h1 id="facthead2">Here Are Our Statistics.</h1>
+            <p id="factpara">Since our establishment, our focus has been on our patients, successful surgeries,
+                and the achievements we have gained. Since our establishment, 
+                our focus has been on our patients, successful surgeries,and the achievements we have gained.
+                Since our establishment, our focus has been on our patients, successful surgeries,
+                and the achievements we have gained. Since our establishment, our focus has been on our patients, 
+                successful surgeries, and the achievements we have gained. Since our establishment,
+                our focus has been on our patients, successful surgeries, and the achievements we have gained.
+            </p>
+            <h1 id="facthead3">Call for any query!</h1>
+            <h1 id="facthead4">+214-509-0000</h1>
+            <div id="factsconatinerdivs">
+                <div class="facts" id="fact1">
+                    <img src="./ASSETS/IMAGES/people-group-solid.svg" class="svgs">
+                    <h1>007</h1>
+                    <h2>Patients</h2>
+                </div>
+                <div class="facts" id="fact2">
+                    <img src="./ASSETS/IMAGES/heart-solid.svg" alt="" class="svgs">
+                    <h1>007</h1>
+                    <h2>complete surgeries</h2>
+                </div>
+                <div class="facts" id="fact3">
+                    <img src="./ASSETS/IMAGES/star-solid.svg" alt="" class="svgs">
+                    <h1>007</h1>
+                    <h2>Our awards</h2>
+                </div>
+            </div>
+    </div>
+    <div id="ourservices">
+            <div id="oshead1">
+                <h1 id="osh101">OUR SERVICES</h1>
+                <h1 id="osh102">EXPLORE OUR SERVICES</h1>
+            </div>
+            <div id="oshead2">
+                <div class="osh2divs" id="osh2divs1">
+                    <img class="osh2divsimg" src="./ASSETS/IMAGES/dental.jpg" alt="">
+                    <h1>Dental</h1>
+                    <p>In our dental department, we provide services for healthy and smiles</p>
+                    <div class="readmorediv">
+                        Read More
+                    </div>
+                </div>
+                <div class="osh2divs" id="osh2divs2">
+                    <img class="osh2divsimg" src="./ASSETS/IMAGES/Neurologie.jpg" alt="">
+                    <h1>Neurologie</h1>
+                    <p>To protect brain health and transform lives, we are here.</p>
+                    <div class="readmorediv">
+                        Read More
+                    </div>
+                </div>
+                <div class="osh2divs" id="osh2divs3">
+                    <img class="osh2divsimg" src="./ASSETS/IMAGES/Cardio.jpg" alt="">
+                    <h1>Cardio</h1>
+                    <p>We are here to enhance the rhythm of your heart. Transforming your life.</p>
+                    <div class="readmorediv">
+                        Read More
+                    </div>
+                </div>
+                <div class="osh2divs" id="osh2divs4">
+                    <img class="osh2divsimg" src="./ASSETS/IMAGES/Orthopedy.jpg" alt="">
+                    <h1>Orthopedy</h1>
+                    <p>We enhance your quality of life by restoring your freedom of movement.</p>
+                    <div class="readmorediv">
+                        Read More
+                    </div>
+                </div>
+                <div class="osh2divs" id="osh2divs5">
+                    <img class="osh2divsimg" src="./ASSETS/IMAGES/Laboratory.jpg" alt="">
+                    <h1>Laboratory</h1>
+                    <p>We open new horizons by supporting your mental well-being.</p>
+                    <div class="readmorediv">
+                        Read More
+                    </div>
+                </div>
+                <div class="osh2divs" id="osh2divs6">
+                    <img class="osh2divsimg" src="./ASSETS/IMAGES/Psychiatry.jpg" alt="">
+                    <h1>Psychiatry</h1>
+                    <p>We offer inner balance and happiness by healing your mind.</p>
+                    <div class="readmorediv">
+                        Read More
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="oufeatures">
+        <div id="of1">
+            <h1>OUR FEATURES</h1>
+            <h1>Wellness and Healing Center: Here to Transform Your Life</h1>
+            <h3>Our Team Of Experts</h3>
+            <p>Our team consists of expert doctors who are experienced and skilled
+                in their respective fields. They form a dedicated team that is 
+                committed to continuously enhancing their knowledge and skills i
+                n order to provide our patients</p>
+            <h3>Clinical Hygiene</h3>
+            <p>We maintain the highest level of clinical hygiene standards to ensure
+                the health and well-being of our patients.</p>
+            <h3>24/7 Telephone Support</h3>
+            <p>To ensure the highest level of customer satisfaction, we provide 24/7
+                telephone support. Our team of experts is always just a phone call away,
+                ready to assist you with any inquiries, requests, or emergencies. 
+                We understand the importance of being accessible and responsive to
+                our patients' needs, and our dedicated team is here to provide support and guidance
+                whenever you need it.</p>
+        </div>
+        <div id="of2">
+        </div>
+    </div>
+    <div id="pricingplanconatiner">
+            <div id="pricingplanhead">
+                <h1>PRICING PLAN</h1>
+                <h1>Our Service Prices</h1>
+            </div>
+            <div id="pricingplanbody">
+                <div class="pricingplanbodydivs">
+                    <div id="subdiv1">
+                        <h3>Dental Procedures</h3>
+                        <h1>$5000. 00 -</h1>
+                    </div>
+                    <div id="subdiv2">
+                       <li> Dental Cleaning</li>
+                        <li>Dental Filling </li>   
+                        <li>Root Canal Treatment </li> 
+                        <li>Tooth Extraction</li>  
+                        <li>Dental Implant</li>
+                    </div>
+                    <div id="subdiv3">
+                        <div class="contactnow" >contact now</div>
+                    </div>
+                </div>
+                <div class="pricingplanbodydivs">
+                    <div id="subdiv1">
+                        <h3>Brain Surgery</h3>
+                        <h1>$15.000.00</h1>
+                    </div>
+                    <div id="subdiv2">
+                        <li>Tumor Removal</li>
+                        <li>Aneurysm Repair.</li>   
+                        <li>Epilepsy Surgery.</li> 
+                        <li>Hydrocephalus Treatment</li>  
+                        <li>Parkinson's Surgery</li>
+                    </div>
+                    <div id="subdiv3">
+                        <div class="contactnow" >contact now</div>
+                    </div>
+                </div>
+                <div class="pricingplanbodydivs">
+                    <div id="subdiv1">
+                        <h3>Orthopedic Surgery</h3>
+                        <h1>$15.000. 00</h1>
+                    </div>
+                    <div id="subdiv2">
+                        <li>Knee Arthroscopy</li>
+                        <li>Shoulder Surgeries</li>   
+                        <li>Hip Replacement</li> 
+                        <li>TSpine Surgery</li>  
+                        <li>Hand and Foot Surgery</li>
+                    </div>
+                    <div id="subdiv3">
+                        <div class="contactnow" >contact now</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="quotenadquery">
+                <div id="queryformdiv">
+                    <form action="">
+                        <table>
+                            <tr>
+                                <td><input class="tabinp"  type="email" placeholder=" your email"></td>
+                                <td><input class="tabinp"  type="text" placeholder=" your name"></td>
+                            </tr>
+                            <tr>
+                                <td><input class="tabinp"  type="tel" placeholder="your mobilenumber"></td>
+                                <td><select class="tabinp"  name="" id="">
+                                    <option value="">Select a option</option>
+                                    <option value="">Dental</option>
+                                    <option value="">Neurologie</option>
+                                    <option value="">Cardio</option>
+                                    <option value="">Orthopedy</option>
+                                    <option value="">Laboratory</option>
+                                    <option value="">Psychiatry</option>
+                                </select></td>
+                            </tr>
+                            <tr><td colspan="2"><textarea name="" id="" cols="30" rows="10" placeholder="Note"></textarea></td></tr>
+                            <tr><td colspan="2"><input type="submit" id="submitbutton" value="submit"></td></tr>
+                        </table>
+                    </form>
+                </div>
+                <div id="qoutediv">
+                    <h1>GET A QUOTE</h1>
+                    <h1>Request A Free Qoute!</h1>
+                    <p>Our experienced staff is available
+                        to assist you in scheduling appointments or answering your questions. 
+                        You can reach out to us to share any concerns regarding your health condition.
+                        We recommend booking an appointment before visiting
+                        our clinic so that we can allocate a suitable time for you.
+                        </p>
+                    <h1>Call for any query!</h1>
+                    <h1>+214-509-0000</h1>
+                </div>
+    </div>
+    <div id="ourteamdiv">
+            <div id="ourteamdivhead">
+                <h1>OUR TEAM</h1>
+                <h1> Expert Team Members</h1>
+            </div>
+            <div id="ourteamdivbody">
+                <div class="docdivs">
+                    <div class="docimg" id="doc1"></div>
+                    <h2>Prof.Dr. Arthur Lovato</h2>
+                    <h3>Chief Medical Officer</h3>
+                    <div class="docsocialinfodiv"></div>
+                </div>
+                <div class="docdivs">
+                    <div class="docimg"  id="doc2"></div>
+                    <h2>Dr. Danican Wilson</h2>
+                    <h3>Orthopedic Surgeon</h3>
+                    <div class="docsocialinfodiv"></div>
+                </div>
+                <div class="docdivs">
+                    <div class="docimg" id="doc3"></div>
+                    <h2>Dr. Adam Brown</h2>
+                    <h3>Neurosurgeon</h3>
+                    <div class="docsocialinfodiv"></div>
+                </div>
+                <div class="docdivs">
+                    <div class="docimg" id="doc4"></div>
+                    <h2>Nurse Nikita Taylor</h2>
+                    <h3>Chief Nurse</h3>
+                    <div class="docsocialinfodiv"></div>
+                </div>
+            </div>
+    </div>
+    <div id="testimonialdiv">
+        <div id="testimonialhead">
+            <h1>TESTIMONIAL</h1>
+            <h1>Our Patients Say!</h1>
+        </div>
+        <div id="testimonialbody">
+            <div class="patientdivs">
+                <div class="patientimg" id="patient1"></div>
+                <h2>Olivia Davis</h2>
+                <h3>Dental Patient</h3>
+                <p>I am extremely satisfied with the services at your clinic. The professional approach of the nurses and doctors made me feel secure about my health issues. I would like to thank them for their support throughout my recovery.</p>
+            </div>
+            <div class="patientdivs">
+                <div class="patientimg"  id="patient2"></div>
+                <h2>Ethan Thompson</h2>
+                <h3>Tumor Patient</h3>
+                <p>I had a wonderful experience during my treatment at your clinic. Thanks to the warm care of the nurses and the expertise of the doctors, I experienced a speedy recovery. I would like to thank you and the entire team.</p>
+            </div>
+            <div class="patientdivs">
+                <div class="patientimg" id="patient3"></div>
+                <h2>Benjamin Wilson</h2>
+                <h3>Foot Fracture</h3>
+                <p>My experience at the clinic was fantastic. The nurses and doctors provided a professional service in a comforting environment. I am grateful for their support throughout my recovery. Thank you everything.</p>
+            </div>
+            <div class="patientdivs">
+                <div class="patientimg" id="patient4"></div>
+                <h2>Emily Johnson</h2>
+                <h3>Arm Sprain</h3>
+                pSince I started coming to your clinic, I have received excellent service and care. Thanks to the expertise of the doctors and the attentiveness of the nurses, I have regained my health. I am grateful to the entire clinic team.
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footerbody">
+            <div class="fb" id="fb1">
+                <h1>ABOUT</h1>
+                <div class="fbdivs"><img class="symbol" src="./ASSETS/IMAGES/location-dot-solid.svg" alt="">123 Main Street, Anytown, United States</div>
+                <div class="fbdivs"><img class="symbol" src="./ASSETS/IMAGES/phone-solid.svg" alt="">+214-509-0000</div>
+                <div class="fbdivs"><img class="symbol" src="./ASSETS/IMAGES/message-solid.svg" alt="">info@example.com</div>
+                <div class="fbdivs" id="flinks">
+                    <div><img class="symbol" src="./ASSETS/IMAGES/facebook.svg" alt=""></div>
+                    <div><img class="symbol" src="./ASSETS/IMAGES/youtube.svg" alt=""></div>
+                    <div><img class="symbol" src="./ASSETS/IMAGES/twitter.svg" alt=""></div>
+                    <div><img class="symbol" src="./ASSETS/IMAGES/linkedin.svg" alt=""></div>
+                </div>
+
+            </div>
+            <div class="fb" id="fb2">
+                <h1>Services</h1>
+                <div id="servicelistdiv">
+                    <li class="servlist">Dental</li>
+                    <li class="servlist">Neurologie</li>
+                    <li class="servlist">Cardio</li>
+                    <li class="servlist">Orthopedy</li>
+                    <li class="servlist">Laboratory</li>
+                    <li class="servlist">Psychiatry</li>
+                </div>
+
+            </div>
+            <div class="fb" id="fb3">
+                <h1>Quick Links</h1>
+                <div id="quicklinkdiv">
+                    <li class="servlist">About Us</li>
+                    <li class="servlist">Contact Us</li>
+                    <li class="servlist">Our Services</li>
+                    <li class="servlist">Terms & Condition</li>
+                    <li class="servlist">Support</li>
+                </div>
+            </div>
+            <div class="fb" id="fb4">
+                <h1>Newsletter</h1>
+                <p id="nlpara">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div id="nlinp">
+                    <input type="email" placeholder="  your email" id="nlemail">
+                    <input type="submit" name="" id="nlsubmit" value="submit">
+                </div>
+            </div>
+        </div>
+        <div id="footerfoot">
+            <p>© Your Site , All Right Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

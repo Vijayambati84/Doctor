@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 5px solid rgb(33, 177, 255);
+    border-bottom: 5px solid rgb(33, 177, 255);
+    position: fixed;
+    z-index: 10;
+}
+#clincartlogo{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(33, 177, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:46% 54% 46% 54% / 100% 0% 100% 0% ;
+}
+#navbaroptions{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 26px;
+        font-weight: bold;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../ASSETS/HEADERS/2.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+.headings{
+    margin-left: 100px;
+}
+#head1{
+    font-size: 80px;
+    color: white;
+}
+#head2{
+    font-size: 24px;
+    color: white;
+}
+#getquote{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 90vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#getquotepara{
+    text-align: center;
+    font-size: 24px;
+}
+#callquery{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 150vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+#calllogo{
+    width: 40px;
+    height: 40px;
+}
+.callinf{
+    margin-left: 50px;
+}
+#tableiframediv{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 190vh;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+
+}
+#queryformdiv{
+    width: 50%;
+    height: 100%;
+    /* border-right: 2px solid black; */
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#iframediv{
+    width: 50%;
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+form{
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+table{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    
+    
+}
+.tabinp{
+    width: 90%;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+textarea,#submitbutton{
+    width: 90%;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#submitbutton{
+    background-color: rgb(156, 186, 241);
+}
+footer
+{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 270vh;
+    background-color: rgb(53,130,163);
+    display: flex;
+    flex-direction: column;
+}
+#footerbody{
+        width: 100%;
+        height: 85%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: row;
+}
+#footerfoot{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+
+}
+.fb{
+    width: 25%;
+    height: 100%;
+    /* border-left: 0.5px solid black; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.symbol{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.fbdivs{
+    font-size: 24px;
+    margin-left: 15px;
+}
+#flinks{
+    width: 80%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#servicelistdiv,#quicklinkdiv{
+    width: 100%;
+    height: 60%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.servlist{
+    margin-left: 10px;
+}
+#nlpara{
+    font-size: 24px;
+    margin-left: 15px;
+    text-align: start;
+}
+#nlinp{
+    width: 100%;
+    height: 60px;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nlemail{
+    width: 70%;
+    height: 80%;
+}
+#nlsubmit{
+    width: 30%;
+    height: 88%;
+}
+
+
+
